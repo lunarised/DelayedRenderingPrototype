@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   info.plist
+   PasteboardPlayground
+
+-->
+<!--
+<plist version="1.0">
+<dict>
+    <key>UTExportedTypeDeclarations</key>
+            <array>
+                <dict>
+                    <key>UTTypeIdentifier</key>
+                    <string>dyn.lab</string>
+                    <key>UTTypeDescription</key>
+                    <string>TestFile</string>
+                    <key>UTTypeIconFile</key>
+                    <string>public.lab.icns</string>
+                    <key>UTTypeConformsTo</key>
+                    <array>
+                        <string>public.data</string>
+                    </array>
+                    <key>UTTypeTagSpecification</key>
+                    <dict>
+                        <key>com.apple.ostype</key>
+                        <string>LABCRT</string>
+                        <key>public.filename-extension</key>
+                        <array>
+                            <string>lab</string>
+                            <string>labc</string>
+                        </array>
+                        <key>public.mime-type</key>
+                        <string>image/jpeg</string>
+                    </dict>
+                </dict>
+            </array>
+</dict>
+</plist>
+
+-->

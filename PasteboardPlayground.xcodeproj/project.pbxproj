@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		643D281D29AED57D004A9241 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 643D281C29AED57D004A9241 /* AppDelegate.m */; };
+		643D282029AED57D004A9241 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 643D281F29AED57D004A9241 /* ViewController.m */; };
+		643D282229AED580004A9241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 643D282129AED580004A9241 /* Assets.xcassets */; };
+		643D282529AED580004A9241 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 643D282329AED580004A9241 /* Main.storyboard */; };
+		643D282729AED580004A9241 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 643D282629AED580004A9241 /* main.m */; };
+		643D283229AED580004A9241 /* PasteboardPlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 643D283129AED580004A9241 /* PasteboardPlaygroundTests.m */; };
+		643D283C29AED580004A9241 /* PasteboardPlaygroundUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 643D283B29AED580004A9241 /* PasteboardPlaygroundUITests.m */; };
+		643D283E29AED580004A9241 /* PasteboardPlaygroundUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 643D283D29AED580004A9241 /* PasteboardPlaygroundUITestsLaunchTests.m */; };
+		643D284B29B96C5A004A9241 /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 643D284A29B96C5A004A9241 /* info.plist */; };
+		64DA59B529CA843F00EE36E0 /* clipboardHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DA59B429CA843F00EE36E0 /* clipboardHandler.m */; };
+		64DA59B82A00B12000EE36E0 /* MyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DA59B72A00B12000EE36E0 /* MyWindowController.m */; };
+		64DA59BB2A00C31800EE36E0 /* clipboardHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DA59BA2A00C31800EE36E0 /* clipboardHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		643D282E29AED580004A9241 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 643D281029AED57D004A9241 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 643D281729AED57D004A9241;
+			remoteInfo = PasteboardPlayground;
+		};
+		643D283829AED580004A9241 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 643D281029AED57D004A9241 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 643D281729AED57D004A9241;
+			remoteInfo = PasteboardPlayground;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		643D281829AED57D004A9241 /* PasteboardPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasteboardPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		643D281B29AED57D004A9241 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		643D281C29AED57D004A9241 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		643D281E29AED57D004A9241 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		643D281F29AED57D004A9241 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		643D282129AED580004A9241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		643D282429AED580004A9241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		643D282629AED580004A9241 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		643D282829AED580004A9241 /* PasteboardPlayground.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PasteboardPlayground.entitlements; sourceTree = "<group>"; };
+		643D282D29AED580004A9241 /* PasteboardPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasteboardPlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		643D283129AED580004A9241 /* PasteboardPlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasteboardPlaygroundTests.m; sourceTree = "<group>"; };
+		643D283729AED580004A9241 /* PasteboardPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasteboardPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		643D283B29AED580004A9241 /* PasteboardPlaygroundUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasteboardPlaygroundUITests.m; sourceTree = "<group>"; };
+		643D283D29AED580004A9241 /* PasteboardPlaygroundUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasteboardPlaygroundUITestsLaunchTests.m; sourceTree = "<group>"; };
+		643D284A29B96C5A004A9241 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
+		64DA59B329CA843F00EE36E0 /* clipboardHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = clipboardHandler.h; sourceTree = "<group>"; };
+		64DA59B429CA843F00EE36E0 /* clipboardHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = clipboardHandler.m; sourceTree = "<group>"; };
+		64DA59B62A00B12000EE36E0 /* MyWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyWindowController.h; sourceTree = "<group>"; };
+		64DA59B72A00B12000EE36E0 /* MyWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWindowController.m; sourceTree = "<group>"; };
+		64DA59B92A00C31800EE36E0 /* clipboardHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = clipboardHelper.h; sourceTree = "<group>"; };
+		64DA59BA2A00C31800EE36E0 /* clipboardHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = clipboardHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		643D281529AED57D004A9241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643D282A29AED580004A9241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643D283429AED580004A9241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		643D280F29AED57D004A9241 = {
+			isa = PBXGroup;
+			children = (
+				64DA59B329CA843F00EE36E0 /* clipboardHandler.h */,
+				64DA59B429CA843F00EE36E0 /* clipboardHandler.m */,
+				643D281A29AED57D004A9241 /* PasteboardPlayground */,
+				643D283029AED580004A9241 /* PasteboardPlaygroundTests */,
+				643D283A29AED580004A9241 /* PasteboardPlaygroundUITests */,
+				643D281929AED57D004A9241 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		643D281929AED57D004A9241 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				643D281829AED57D004A9241 /* PasteboardPlayground.app */,
+				643D282D29AED580004A9241 /* PasteboardPlaygroundTests.xctest */,
+				643D283729AED580004A9241 /* PasteboardPlaygroundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		643D281A29AED57D004A9241 /* PasteboardPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				643D281B29AED57D004A9241 /* AppDelegate.h */,
+				643D284A29B96C5A004A9241 /* info.plist */,
+				643D281C29AED57D004A9241 /* AppDelegate.m */,
+				643D281E29AED57D004A9241 /* ViewController.h */,
+				643D281F29AED57D004A9241 /* ViewController.m */,
+				64DA59B92A00C31800EE36E0 /* clipboardHelper.h */,
+				64DA59BA2A00C31800EE36E0 /* clipboardHelper.m */,
+				643D282129AED580004A9241 /* Assets.xcassets */,
+				643D282329AED580004A9241 /* Main.storyboard */,
+				64DA59B62A00B12000EE36E0 /* MyWindowController.h */,
+				64DA59B72A00B12000EE36E0 /* MyWindowController.m */,
+				643D282629AED580004A9241 /* main.m */,
+				643D282829AED580004A9241 /* PasteboardPlayground.entitlements */,
+			);
+			path = PasteboardPlayground;
+			sourceTree = "<group>";
+		};
+		643D283029AED580004A9241 /* PasteboardPlaygroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				643D283129AED580004A9241 /* PasteboardPlaygroundTests.m */,
+			);
+			path = PasteboardPlaygroundTests;
+			sourceTree = "<group>";
+		};
+		643D283A29AED580004A9241 /* PasteboardPlaygroundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				643D283B29AED580004A9241 /* PasteboardPlaygroundUITests.m */,
+				643D283D29AED580004A9241 /* PasteboardPlaygroundUITestsLaunchTests.m */,
+			);
+			path = PasteboardPlaygroundUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		643D281729AED57D004A9241 /* PasteboardPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 643D284129AED580004A9241 /* Build configuration list for PBXNativeTarget "PasteboardPlayground" */;
+			buildPhases = (
+				643D281429AED57D004A9241 /* Sources */,
+				643D281529AED57D004A9241 /* Frameworks */,
+				643D281629AED57D004A9241 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasteboardPlayground;
+			productName = PasteboardPlayground;
+			productReference = 643D281829AED57D004A9241 /* PasteboardPlayground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		643D282C29AED580004A9241 /* PasteboardPlaygroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 643D284429AED580004A9241 /* Build configuration list for PBXNativeTarget "PasteboardPlaygroundTests" */;
+			buildPhases = (
+				643D282929AED580004A9241 /* Sources */,
+				643D282A29AED580004A9241 /* Frameworks */,
+				643D282B29AED580004A9241 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				643D282F29AED580004A9241 /* PBXTargetDependency */,
+			);
+			name = PasteboardPlaygroundTests;
+			productName = PasteboardPlaygroundTests;
+			productReference = 643D282D29AED580004A9241 /* PasteboardPlaygroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		643D283629AED580004A9241 /* PasteboardPlaygroundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 643D284729AED580004A9241 /* Build configuration list for PBXNativeTarget "PasteboardPlaygroundUITests" */;
+			buildPhases = (
+				643D283329AED580004A9241 /* Sources */,
+				643D283429AED580004A9241 /* Frameworks */,
+				643D283529AED580004A9241 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				643D283929AED580004A9241 /* PBXTargetDependency */,
+			);
+			name = PasteboardPlaygroundUITests;
+			productName = PasteboardPlaygroundUITests;
+			productReference = 643D283729AED580004A9241 /* PasteboardPlaygroundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		643D281029AED57D004A9241 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					643D281729AED57D004A9241 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					643D282C29AED580004A9241 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 643D281729AED57D004A9241;
+					};
+					643D283629AED580004A9241 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 643D281729AED57D004A9241;
+					};
+				};
+			};
+			buildConfigurationList = 643D281329AED57D004A9241 /* Build configuration list for PBXProject "PasteboardPlayground" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 643D280F29AED57D004A9241;
+			productRefGroup = 643D281929AED57D004A9241 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				643D281729AED57D004A9241 /* PasteboardPlayground */,
+				643D282C29AED580004A9241 /* PasteboardPlaygroundTests */,
+				643D283629AED580004A9241 /* PasteboardPlaygroundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		643D281629AED57D004A9241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				643D282229AED580004A9241 /* Assets.xcassets in Resources */,
+				643D282529AED580004A9241 /* Main.storyboard in Resources */,
+				643D284B29B96C5A004A9241 /* info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643D282B29AED580004A9241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643D283529AED580004A9241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		643D281429AED57D004A9241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64DA59BB2A00C31800EE36E0 /* clipboardHelper.m in Sources */,
+				64DA59B529CA843F00EE36E0 /* clipboardHandler.m in Sources */,
+				643D282029AED57D004A9241 /* ViewController.m in Sources */,
+				643D282729AED580004A9241 /* main.m in Sources */,
+				643D281D29AED57D004A9241 /* AppDelegate.m in Sources */,
+				64DA59B82A00B12000EE36E0 /* MyWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643D282929AED580004A9241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				643D283229AED580004A9241 /* PasteboardPlaygroundTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643D283329AED580004A9241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				643D283E29AED580004A9241 /* PasteboardPlaygroundUITestsLaunchTests.m in Sources */,
+				643D283C29AED580004A9241 /* PasteboardPlaygroundUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		643D282F29AED580004A9241 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 643D281729AED57D004A9241 /* PasteboardPlayground */;
+			targetProxy = 643D282E29AED580004A9241 /* PBXContainerItemProxy */;
+		};
+		643D283929AED580004A9241 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 643D281729AED57D004A9241 /* PasteboardPlayground */;
+			targetProxy = 643D283829AED580004A9241 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		643D282329AED580004A9241 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				643D282429AED580004A9241 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		643D283F29AED580004A9241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		643D284029AED580004A9241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		643D284229AED580004A9241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PasteboardPlayground/PasteboardPlayground.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lunarised.PasteboardPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		643D284329AED580004A9241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PasteboardPlayground/PasteboardPlayground.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lunarised.PasteboardPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		643D284529AED580004A9241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lunarised.PasteboardPlaygroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PasteboardPlayground.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PasteboardPlayground";
+			};
+			name = Debug;
+		};
+		643D284629AED580004A9241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lunarised.PasteboardPlaygroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PasteboardPlayground.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PasteboardPlayground";
+			};
+			name = Release;
+		};
+		643D284829AED580004A9241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lunarised.PasteboardPlaygroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = PasteboardPlayground;
+			};
+			name = Debug;
+		};
+		643D284929AED580004A9241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lunarised.PasteboardPlaygroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = PasteboardPlayground;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		643D281329AED57D004A9241 /* Build configuration list for PBXProject "PasteboardPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643D283F29AED580004A9241 /* Debug */,
+				643D284029AED580004A9241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		643D284129AED580004A9241 /* Build configuration list for PBXNativeTarget "PasteboardPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643D284229AED580004A9241 /* Debug */,
+				643D284329AED580004A9241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		643D284429AED580004A9241 /* Build configuration list for PBXNativeTarget "PasteboardPlaygroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643D284529AED580004A9241 /* Debug */,
+				643D284629AED580004A9241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		643D284729AED580004A9241 /* Build configuration list for PBXNativeTarget "PasteboardPlaygroundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643D284829AED580004A9241 /* Debug */,
+				643D284929AED580004A9241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 643D281029AED57D004A9241 /* Project object */;
+}
